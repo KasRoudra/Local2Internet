@@ -356,7 +356,7 @@ if loclxcheck and cfcheck and not ngrokcheck
 end
 if not loclxcheck and cfcheck and ngrokcheck
     puts "\n#{success}Cloudflared and Ngrok started succesfully!\n"
-    puts "\n#{info}Cloudflared URL > #{yellow} #{loclxlink}"
+    puts "\n#{info}Cloudflared URL > #{yellow} #{cflink}"
     puts "\n#{info}Ngrok URL > #{yellow} #{ngroklink}"
     break
 end
